@@ -1,0 +1,11 @@
+version: '3'
+
+services:
+  demoapp:
+    container_name: demoapp
+    build:
+      context: .
+    ports: 
+      - 3000:3000
+    volumes:
+      - ./:/usr/local/src:rw
