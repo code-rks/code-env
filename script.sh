@@ -1,2 +1,2 @@
 ls
-nodemon index.js -L
+nodemon src/index.js -L
